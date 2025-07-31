@@ -1,0 +1,7 @@
+arxiv
+requests==2.32.3
+langchain==0.3.27
+langchain-community==0.3.27
+torch==2.6.0+cu124
+transformers==4.54.1
+gradio==5.38.2
