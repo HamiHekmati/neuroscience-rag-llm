@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 For optimal performance, it is strongly recommended to use a runtime with an NVIDIA T4 GPU or better when running the notebook in Google Colab or a similar environment, especially when loading large language models like Mistral-7B. On such hardware, a complete answer to a user query is usually generated in about 20 seconds.
 
-Once your environment is set up, open the notebook file (such as `neuro_rag_app.ipynb`) in Jupyter Notebook, JupyterLab, or upload it to Google Colab for a cloud-based workflow. Run each notebook cell in order to walk through the full data pipeline, from literature retrieval and cleaning, through embedding and indexing, to loading the language model and launching the interactive web app.
+Once your environment is set up, open the [notebook file](rag_llm_neuroscience.ipynb) in Jupyter Notebook, JupyterLab, or upload it to Google Colab for a cloud-based workflow. Run each notebook cell in order to walk through the full data pipeline, from literature retrieval and cleaning, through embedding and indexing, to loading the language model and launching the interactive web app.
 
 ## Dataset
 
