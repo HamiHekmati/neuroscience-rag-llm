@@ -1,5 +1,9 @@
 # neuroscience-rag-llm
 
+<div align="center">
+  <img src="https://www.datocms-assets.com/99439/1713864224-10-ways-to-use-ai-in-customer-service.png" alt="App Demo Screenshot" width="700"/>
+</div>
+
 # Neuroscience Research Assistant: Retrieval-Augmented Generation with Large Language Models
 
 This project presents the development and deployment of an AI-powered research assistant for neuroscience and neuroengineering. By integrating retrieval-augmented generation (RAG) techniques with a large language model, the complete notebook demonstrates an end-to-end pipeline for real-world scientific literature search and question answering. The workflow begins with retrieving and preprocessing the latest research abstracts from arXiv and bioRxiv, continues through embedding and semantic indexing, and culminates in interactive, literature-grounded Q\&A via a web interface. The goal is to make complex neuroscience research more accessible, actionable, and up-to-date for students, researchers, and clinicians.
@@ -16,7 +20,9 @@ To run this project on your own machine, start by cloning or downloading the rep
 pip install -r requirements.txt
 ```
 
-Once your environment is set up, open the notebook file (such as `neuro_rag_app.ipynb`) in Jupyter Notebook, JupyterLab, or upload it to Google Colab for a cloud-based workflow. Run each notebook cell in order to walk through the full data pipeline—from literature retrieval and cleaning, through embedding and indexing, to loading the language model and launching the interactive web app. The app can also be deployed as a standalone interface (e.g., `app.py`) using Gradio for interactive, real-time question answering. All parameters, such as topic list and chunk size, are easily adjustable to explore different areas or expand to new domains.
+For optimal performance, it is strongly recommended to use a runtime with an NVIDIA T4 GPU or better when running the notebook in Google Colab or a similar environment, especially when loading large language models like Mistral-7B. On such hardware, a complete answer to a user query is usually generated in about 20 seconds.
+
+Once your environment is set up, open the notebook file (such as `neuro_rag_app.ipynb`) in Jupyter Notebook, JupyterLab, or upload it to Google Colab for a cloud-based workflow. Run each notebook cell in order to walk through the full data pipeline, from literature retrieval and cleaning, through embedding and indexing, to loading the language model and launching the interactive web app.
 
 ## Dataset
 
