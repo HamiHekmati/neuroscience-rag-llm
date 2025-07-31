@@ -36,6 +36,8 @@ This project combines automated literature retrieval, advanced text preprocessin
 
 Evaluation of the system shows that retrieval-augmented generation consistently produces answers that are not only accurate but also grounded in the latest neuroscience research. The model is able to synthesize information from multiple recent papers, providing responses that reflect both domain expertise and current scientific consensus. Direct comparison between RAG-generated answers and those produced by the language model alone highlights the value of document retrieval in improving answer quality and timeliness. The Gradio interface allows for real-time user interaction and demonstrates the practical potential of RAG-based AI for research support.
 
+![App Demo Screenshot](demo.png)
+
 ## Contact
 
 For questions, feedback, or collaboration opportunities, please reach out via [LinkedIn](https://www.linkedin.com/in/hami-hekmati-399932154/)
