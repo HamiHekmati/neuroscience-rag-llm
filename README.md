@@ -1,5 +1,3 @@
-# neuroscience-rag-llm
-
 <div align="center">
   <img src="https://www.datocms-assets.com/99439/1713864224-10-ways-to-use-ai-in-customer-service.png" alt="App Demo Screenshot" width="700"/>
 </div>
